@@ -1,3 +1,3 @@
-# Strapi application
+# Online Academy Back-end API
 
-A quick description of your strapi application
+Đồ án Lập trình Web nâng cao.

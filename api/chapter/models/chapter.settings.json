@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chapters",
+  "info": {
+    "name": "Chapter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ytbUrl": {
+      "type": "string"
+    }
+  }
+}

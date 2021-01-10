@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wish_lists",
+  "info": {
+    "name": "WishList",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userId": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "courseId": {
+      "model": "course"
+    }
+  }
+}

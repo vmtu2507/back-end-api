@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/testmail",
+      "handler": "testmailer.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/testcategory/:id",
+      "handler": "testmailer.findCourseByInstructor",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
